@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+form {
+    background-color: #fff;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.campos-scroll {
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 15px;
+    padding-right: 5px;
+}
+
+.campos-scroll::-webkit-scrollbar {
+    width: 6px;
+}
+.campos-scroll::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.campo {
+    margin-bottom: 15px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.campo input[type="text"],
+.campo input[type="number"],
+.campo select {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+}
+
+.campo input:focus,
+.campo select:focus {
+    border-color: #aaa;
+    background-color: #fff;
+    outline: none;
+}
+
+.btn-remove {
+    color: red;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn-add {
+    background-color: transparent;
+    color: #0b8df7;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 14px;
+    margin-left: auto;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 14px;
+    background-color: #0b8df7;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #097ae0;
+}

@@ -1,0 +1,15 @@
+INSERT INTO fabricante (descricao) VALUES ('Toyota');
+INSERT INTO fabricante (descricao) VALUES ('Honda');
+INSERT INTO fabricante (descricao) VALUES ('Ford');
+INSERT INTO fabricante (descricao) VALUES ('Chevrolet');
+INSERT INTO fabricante (descricao) VALUES ('Volkswagen');
+INSERT INTO fabricante (descricao) VALUES ('BMW');
+INSERT INTO fabricante (descricao) VALUES ('Mercedes-Benz');
+INSERT INTO fabricante (descricao) VALUES ('Audi');
+INSERT INTO fabricante (descricao) VALUES ('Hyundai');
+INSERT INTO fabricante (descricao) VALUES ('Nissan');
+INSERT INTO fabricante (descricao) VALUES ('Kia');
+INSERT INTO fabricante (descricao) VALUES ('Peugeot');
+INSERT INTO fabricante (descricao) VALUES ('Fiat');
+INSERT INTO fabricante (descricao) VALUES ('Renault');
+INSERT INTO fabricante (descricao) VALUES ('Jeep');

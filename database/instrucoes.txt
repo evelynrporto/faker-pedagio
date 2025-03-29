@@ -1,0 +1,11 @@
+1. creates.sql
+2. inserts_estados.sql
+3. inserts_cidades.sql 
+4. inserts_fabricantes.sql 
+5. inserts_modelos.sql 
+6. inserts_tipo_veiculo.sql 
+7. inserts_veiculo.sql 
+8. inserts_praca.sql 
+9. inserts_tickets_1m.sql - Anotar tempo - limpar tabela
+10. inserts_tickets_10m.sql - Anotar tempo - limpar tabela 
+11. inserts_tickets_100m.sql - Anotar tempo
