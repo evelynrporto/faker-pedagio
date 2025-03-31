@@ -55,5 +55,5 @@ for ($i = 0; $i < $quantidade; $i++) {
 
     $colunasStr = implode(', ', array_column($campos, 'coluna'));
     $valoresStr = implode(', ', $valores);
-    echo "INSERT INTO `$tabela` ($colunasStr) VALUES ($valoresStr);\n";
+    echo "INSERT INTO $tabela ($colunasStr) VALUES ($valoresStr);\n";
 }
